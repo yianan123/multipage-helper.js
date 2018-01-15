@@ -11,7 +11,6 @@
     底部改为
     devWebpackConfig.plugins.push(...mulitipage.getDevHtmlWebpackPluginList())
 #  ./webpack.prod.conf.js
-   去掉
     // new HtmlWebpackPlugin({
     //   filename: process.env.NODE_ENV === 'testing'
     //     ? 'index.html'
